@@ -163,7 +163,7 @@ const SearchPage = () => {
             </div>
           </div>
           <div className="right-div">
-            <h2>Pretraga za: Zidar</h2>
+            <h2>Pretraga za: zidar</h2>
             <div className="searchgrid">
               {searchGridItems.map((searchitem) => (
                 <div className="searchgrid-item" key={searchitem.id}>
