@@ -1,0 +1,277 @@
+
+.background {
+    position: relative;
+    overflow: hidden;
+    height: 600px;}
+
+.background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://i.imgur.com/m9A0Dl0.jpg'); 
+    background-position: center;
+    filter: blur(7px); 
+    opacity: 40%;
+    z-index: -1; 
+}
+
+.content {
+    position: relative;
+    z-index: 1; 
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 70vh; 
+}
+
+.moto {
+	color: #606060;
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 1;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+
+.pretrazi {
+	width: 182px;
+	height: 41px;
+	padding: 0px 10px 0px 10px;
+	background: #00418e;
+	color: #ffffff;
+	border-color: #00418e;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 1px 1px 1px 1px;
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+main {
+    margin-top: 100px; 
+}
+
+.search-bar {
+    width: 717px;
+    height: 53px;
+    background-color: transparent;
+    border: 1px solid #606060;
+    display: flex;
+    align-items: center;
+    padding-left: 10px; 
+    
+}
+
+.search-icon {
+    color: #606060;
+    margin-right: 10px; 
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    color: #606060;
+    font-size: 16px;
+    outline: none;
+}
+
+.CarouselDiv{
+    padding-top: 30px;
+    padding-bottom: 80px;
+    border: 1px solid lightgray;
+}
+
+.divTitle{
+	height: 45px;
+	color: #606060;
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 1;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.featured-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.featured-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-text h2 {
+  	width: 455px;
+	height: 45px;
+	color: #606060;
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 1;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.featured-text p{
+    width: 700px;
+	opacity: 80%;
+	color: #606060;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.6;
+	text-align: left;
+}
+
+.featured-button {
+    margin-left: 20px;
+}
+
+.gray-button {
+    background-color: gray;
+    color: darkgray;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gray-button:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding-right: 100px;
+    padding-left: 120px;
+    border: 1px solid lightgray;
+}
+
+.flex-item {
+  flex: 1;
+  padding: 20px; 
+}
+
+.first-item{
+    margin-top: 80px;
+    
+
+}
+.first-item img{
+    border: 1px solid grey;
+
+}
+
+.grid-container {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: fit-content;
+}
+
+.item-details {
+    margin-top: 10px;
+    display: flex;
+}
+
+.item-text {
+	width: 208px;
+	height: 21px;
+	color: #606060;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.3;
+	text-align: left;
+}
+
+.rating-stars {
+    color: #00418e;
+    width: 90px;
+	height: 16px;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.item-price {
+	width: 63px;
+	height: 21px;
+	color: #606060;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.3;
+	text-align: left;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    
+}
+.grid-item .other-item img{
+    border: 1px solid grey;
+}
+.about-us {
+    text-align: center;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.border {
+    width: 60px;
+    height: 2px;
+    background-color: #ccc;
+    margin: 15px auto;
+}
+
+.about-us-title {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #606060;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: 2px;
+}
+
+.about-us-text1  {
+    margin-bottom: 30px;
+	opacity: 80%;
+	color: #606060;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.about-us-text2  {
+	opacity: 80%;
+	color: #606060;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.6;
+}
