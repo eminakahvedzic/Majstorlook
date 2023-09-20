@@ -4,8 +4,11 @@ import Footer from "../components/footer";
 import "../styles/home.css";
 import { FaSearch } from "react-icons/fa";
 import MyCarousel from "../components/carousel";
+import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
+  const navigate = useNavigate(); // Initialize useNavigate
+
   const items = [
     {
       id: 1,
@@ -74,7 +77,14 @@ const HomePage = () => {
                 placeholder="Unesite ime majstora, kategoriju ili posao koji treba obaviti..."
               />
             </div>
-            <button className="pretrazi">Pretraži!</button>
+            <button
+              className="pretrazi"
+              onClick={() => {
+                navigate("/search");
+              }}
+            >
+              Pretraži!
+            </button>
           </div>
         </div>
         <div className="CarouselDiv">
@@ -158,7 +168,7 @@ const HomePage = () => {
           </p>
         </div>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
