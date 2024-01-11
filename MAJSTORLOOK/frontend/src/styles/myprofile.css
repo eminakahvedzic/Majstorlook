@@ -1,0 +1,156 @@
+.my-profile-page {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.profile-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.profile-text {
+  margin-top: -130px;
+  text-align: left;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.left-div {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #ccc;
+  padding: 50px;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-image {
+  width: 300px;
+  height: 400px;
+  border: 2px solid gray;
+  object-fit: cover;
+  margin-bottom: 150px;
+}
+
+.profile-name {
+  font-size: 34px;
+  color: gray;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.profile-username {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  padding: 50px;
+  width: 450px;
+  padding-left: 20px;
+}
+
+.profile-detail {
+  align-items: left;
+  color: gray;
+  display: flex;
+  gap: 7px;
+  margin-top: -10px;
+}
+
+.profile-detail p {
+  font-size: 25px;
+  margin-top: -1px;
+}
+
+.detail-label {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.profile-info {
+  font-size: 16px;
+  display: flex;
+}
+
+.profle-gumb {
+  display: flex;
+}
+
+.blue-button {
+  background-color: #00418e;
+  color: white;
+  padding: 10px 50px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: -60px;
+  margin-right: -400px;
+  margin-left: -100px;
+}
+
+.orange-button {
+  background-color: #ff9e00;
+  color: white;
+  padding: 10px 50px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: -60px;
+  margin-right: 300px;
+  margin-left: -600px;
+}
+
+.profile-item {
+  display: flex;
+  width: 400px;
+}
+
+.utoku-section {
+  border-top: 1px solid #ccc;
+  margin-bottom: 100px;
+  padding-left: 30px;
+}
+
+.section-title {
+  color: gray;
+  font-size: 34px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.item-image {
+  height: 100px;
+  width: 150px;
+  border: 1px solid #ccc;
+
+}
+
+.majstor-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.majstor-title {
+  color: gray;
+}
+
+.majstor-rating {
+  color: #00418e;
+
+}
